@@ -8,7 +8,7 @@ import { useTheme } from "next-themes";
 
 const THEMES = ["light", "dark"];
 
-export const ThemeSwitch = ({ duration = 400 }: { duration?: number }) => {
+export const ThemeSwitch = ({ duration = 8000 }: { duration?: number }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [animatingFrom, setAnimatingFrom] = useState<{

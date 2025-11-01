@@ -1,31 +1,7 @@
-"use client";
-import React from "react";
-import { authClient } from "@/lib/auth/auth-client";
-import { useRouter } from "next/navigation";
-
-const Admin = () => {
-  const router = useRouter();
-  const handleLogout = async () => {
-    await authClient.signOut({
-      fetchOptions: {
-        onSuccess: () => {
-          router.push("/");
-        },
-      },
-    });
-  };
+export default function AdminPage() {
   return (
-    <div>
-      Admin
-      <button
-        type="button"
-        className="w-full mt-4 bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
-        onClick={handleLogout}
-      >
-        Logout
-      </button>
-    </div>
+    <main className="p-8">
+      <h1 className="text-2xl font-bold mb-6">Create New Post</h1>
+    </main>
   );
-};
-
-export default Admin;
+}

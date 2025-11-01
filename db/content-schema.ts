@@ -1,25 +1,19 @@
-import {
-  pgTable,
-  serial,
-  text,
-  integer,
-  timestamp,
-  jsonb,
-} from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, jsonb, uuid } from "drizzle-orm/pg-core";
 
-export const contents = pgTable("contents", {
-  id: serial("id").primaryKey(),
-  title: text("title").notNull(),
-  thumbnail_url: text("thumbnail_url"),
-  author_id: text("author_id").notNull(),
-  created_at: timestamp("created_at").defaultNow(),
+export const contentInfo = pgTable("content_info", {
+  id: uuid("id").defaultRandom().primaryKey(), // unique id for each post
+  authorId: uuid("author_id").notNull(), // relational with authors (if any)
+  authorName: text("author_name").notNull(), // stored name for quick lookup
+  title: text("title").notNull(), // post title
+  thumbnail: text("thumbnail").notNull(), // ImageKit image url
+  createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
-export const content_blocks = pgTable("content_blocks", {
-  id: serial("id").primaryKey(),
-  content_id: integer("content_id").notNull(), // FK to contents.id
-  type: text("type").notNull(), // 'text' | 'ayah' | 'image' | 'link'
-  order: integer("order").notNull(),
-  data: jsonb("data").notNull(), // flexible field for any block data
-  created_at: timestamp("created_at").defaultNow(),
+export const content = pgTable("content", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  contentId: uuid("content_id")
+    .references(() => contentInfo.id, { onDelete: "cascade" })
+    .notNull(),
+  blocks: jsonb("blocks").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
 });
