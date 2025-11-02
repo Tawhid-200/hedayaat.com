@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <main className="p-8">
       <h1 className="text-3xl font-bold mb-6">Hello world</h1>
+      <Button color="primary">Click Me</Button>
     </main>
   );
 }
