@@ -188,6 +188,7 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+<<<<<<< HEAD
 
 /* Subtle pulse for glowing stars */
 @keyframes pulse-subtle {
@@ -233,3 +234,5 @@
 .animate-delay-3 {
   animation-delay: 1.5s;
 }
+=======
+>>>>>>> 81d6f3c (Reuploaded fixed project)

@@ -6,6 +6,11 @@ import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "./provider";
 //@ts-ignore
 import "./globals.css";
+<<<<<<< HEAD
+=======
+//@ts-ignore
+import "./style/star_animate.css";
+>>>>>>> 81d6f3c (Reuploaded fixed project)
 
 import { Navbar } from "@/components/layouts/Navbar";
 
