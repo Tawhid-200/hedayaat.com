@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
+import { HeroSection } from "@/components/layouts/Hero";
 
 export default function Home() {
   // useEffect(() => {
@@ -15,9 +16,11 @@ export default function Home() {
   // }, []);
 
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold mb-6">Hello world</h1>
-      <Button color="primary">Click Me</Button>
+    <main className="p-0 relative">
+      <HeroSection />
+      <div className="relative bg-white dark:bg-zinc-950">
+        {/* Additional sections */}
+      </div>
     </main>
   );
 }

@@ -7,6 +7,8 @@ import { ThemeProvider } from "./provider";
 //@ts-ignore
 import "./globals.css";
 
+import { Navbar } from "@/components/layouts/Navbar";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -48,6 +50,9 @@ export default async function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <header>
+            <Navbar />
+          </header>
           {children}
         </ThemeProvider>
       </body>
