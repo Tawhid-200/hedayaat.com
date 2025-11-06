@@ -168,7 +168,7 @@ export function Navbar() {
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
           isScrolled
             ? "bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md shadow-sm border-b border-zinc-200/50 dark:border-zinc-800/50"
-            : "bg-transparent"
+            : "bg-transparent backdrop-blur-[2px]"
         )}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -470,8 +470,6 @@ export function Navbar() {
           )}
         </AnimatePresence>
       </motion.nav>
-
-      <div className="h-16" />
     </>
   );
 }

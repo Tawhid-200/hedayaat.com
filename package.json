@@ -1,9 +1,9 @@
 {
-  "name": "hedayaat.com",
-  "version": "0.1.0",
+  "name": "al-hedayaah.com",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently --raw \"next dev --turbopack\" \"i18nexus listen\"",
+    "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "biome check",

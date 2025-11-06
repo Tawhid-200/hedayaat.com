@@ -30,6 +30,7 @@
 #stars:after {
   width: 1px;
   height: 1px;
+  border-radius: 50%;
   background: transparent;
   box-shadow: 117px 1613px #ce93d8, 1488px 635px #ce93d8, 944px 914px #ce93d8,
     647px 277px #ce93d8, 1792px 1205px #ce93d8, 656px 1517px #ce93d8,
