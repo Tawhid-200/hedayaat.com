@@ -1,14 +1,59 @@
 {
   "quranAyahs": [
     {
-      "ayah": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
-      "translation": "Indeed, with hardship comes ease.",
-      "ref": "94:6"
+      "ayah": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
+      "translation": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+      "ref": "2:152"
     },
     {
-      "ayah": "اللَّهُ مَعَ الصَّابِرِينَ",
-      "translation": "Indeed, Allah is with the patient.",
+      "ayah": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+      "translation": "O you who believe, seek help through patience and prayer. Indeed, Allah is with the patient.",
       "ref": "2:153"
+    },
+    {
+      "ayah": "وَإِن تَعُدُّوا نِعْمَتَ اللَّهِ لَا تُحْصُوهَا ۗ إِنَّ اللَّهَ لَغَفُورٌ رَّحِيمٌ",
+      "translation": "And if you count the favors of Allah, you will never be able to number them. Indeed, Allah is Forgiving and Merciful.",
+      "ref": "16:18"
+    },
+    {
+      "ayah": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا * وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ",
+      "translation": "And whoever fears Allah—He will make for him a way out, and will provide for him from where he does not expect.",
+      "ref": "65:2-3"
+    },
+    {
+      "ayah": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوْا وَالَّذِينَ هُمْ مُحْسِنُونَ",
+      "translation": "Indeed, Allah is with those who fear Him and those who do good.",
+      "ref": "16:128"
+    },
+    {
+      "ayah": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+      "translation": "And whoever relies upon Allah, then He is sufficient for him.",
+      "ref": "65:3"
+    },
+    {
+      "ayah": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا ۚ هُوَ مَوْلَانَا",
+      "translation": "Say: Nothing will happen to us except what Allah has written for us. He is our Protector.",
+      "ref": "9:51"
+    },
+    {
+      "ayah": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "translation": "Allah does not burden a soul beyond what it can bear.",
+      "ref": "2:286"
+    },
+    {
+      "ayah": "الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ ۗ أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+      "translation": "Those who believe and whose hearts find rest in the remembrance of Allah. Verily, in the remembrance of Allah do hearts find rest.",
+      "ref": "13:28"
+    },
+    {
+      "ayah": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ",
+      "translation": "It may be that you dislike something while it is good for you.",
+      "ref": "2:216"
+    },
+    {
+      "ayah": "إِنَّ مَعَ الْعُسْرِ يُسْرًا * إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation": "Indeed, with hardship comes ease. Indeed, with hardship comes ease.",
+      "ref": "94:5-6"
     },
     {
       "ayah": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
@@ -16,64 +61,24 @@
       "ref": "57:4"
     },
     {
-      "ayah": "إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
-      "translation": "Indeed, Allah is over all things competent.",
-      "ref": "2:284"
+      "ayah": "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ",
+      "translation": "My success is only by Allah. In Him I trust.",
+      "ref": "11:88"
     },
     {
       "ayah": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
-      "translation": "So, truly, with hardship comes ease.",
-      "ref": "94:5"
+      "translation": "For indeed, with hardship comes ease.",
+      "ref": "94:6"
     },
     {
-      "ayah": "إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ",
-      "translation": "Indeed, Allah loves those who rely upon Him.",
-      "ref": "3:159"
+      "ayah": "وَقُل رَّبِّ زِدْنِي عِلْمًا",
+      "translation": "And say: My Lord, increase me in knowledge.",
+      "ref": "20:114"
     },
     {
-      "ayah": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
-      "translation": "Do not despair of the mercy of Allah.",
-      "ref": "39:53"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
-      "translation": "Indeed, Allah does not allow the reward of the good-doers to be lost.",
-      "ref": "9:120"
-    },
-    {
-      "ayah": "فَاذْكُرُونِي أَذْكُرْكُمْ",
-      "translation": "So remember Me; I will remember you.",
-      "ref": "2:152"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ",
-      "translation": "Indeed, Allah loves those who repent.",
-      "ref": "2:222"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا",
-      "translation": "Allah does not burden a soul beyond that it can bear.",
-      "ref": "2:286"
-    },
-    {
-      "ayah": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ",
-      "translation": "Perhaps you hate a thing and it is good for you.",
-      "ref": "2:216"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ مَعَنَا",
-      "translation": "Indeed, Allah is with us.",
-      "ref": "9:40"
-    },
-    {
-      "ayah": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا",
-      "translation": "Say, 'Nothing will happen to us except what Allah has decreed for us.'",
-      "ref": "9:51"
-    },
-    {
-      "ayah": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
-      "translation": "Whoever relies upon Allah – then He is sufficient for him.",
-      "ref": "65:3"
+      "ayah": "فَإِنَّ ذِكْرَىٰ تَنفَعُ الْمُؤْمِنِينَ",
+      "translation": "So remind, for indeed reminding benefits the believers.",
+      "ref": "51:55"
     },
     {
       "ayah": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
@@ -81,179 +86,19 @@
       "ref": "11:61"
     },
     {
+      "ayah": "وَعَلَى اللَّهِ فَتَوَكَّلُوا إِن كُنتُم مُّؤْمِنِينَ",
+      "translation": "And upon Allah rely, if you are believers.",
+      "ref": "5:23"
+    },
+    {
       "ayah": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
       "translation": "Call upon Me; I will respond to you.",
       "ref": "40:60"
     },
     {
-      "ayah": "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ",
-      "translation": "My success is only by Allah.",
-      "ref": "11:88"
-    },
-    {
-      "ayah": "إِنَّهُ كَانَ بِي حَفِيًّا",
-      "translation": "Indeed, He has always been gracious to me.",
-      "ref": "19:47"
-    },
-    {
-      "ayah": "رَّبِّ زِدْنِي عِلْمًا",
-      "translation": "My Lord, increase me in knowledge.",
-      "ref": "20:114"
-    },
-    {
-      "ayah": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ",
-      "translation": "Allah is the Light of the heavens and the earth.",
-      "ref": "24:35"
-    },
-    {
-      "ayah": "فَصَبْرٌ جَمِيلٌ",
-      "translation": "So patience is most fitting.",
-      "ref": "12:18"
-    },
-    {
-      "ayah": "وَتَوَكَّلْ عَلَى اللَّهِ",
-      "translation": "And rely upon Allah.",
-      "ref": "33:3"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ يُحِبُّ الْمُتَقِينَ",
-      "translation": "Indeed, Allah loves the righteous.",
-      "ref": "9:4"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
-      "translation": "Indeed, Allah is Hearing and Seeing.",
-      "ref": "58:1"
-    },
-    {
-      "ayah": "لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
-      "translation": "They will have no fear, nor will they grieve.",
-      "ref": "2:62"
-    },
-    {
-      "ayah": "وَمَن يَغْفِرُ الذُّنُوبَ إِلَّا اللَّهُ",
-      "translation": "And who forgives sins except Allah?",
-      "ref": "3:135"
-    },
-    {
-      "ayah": "إِنَّ رَبِّي لَسَمِيعُ الدُّعَاءِ",
-      "translation": "Indeed, my Lord is the Hearer of supplication.",
-      "ref": "14:39"
-    },
-    {
-      "ayah": "إِنَّ رَبِّي عَلَىٰ صِرَاطٍ مُّسْتَقِيمٍ",
-      "translation": "Indeed, my Lord is on a straight path.",
-      "ref": "11:56"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ",
-      "translation": "Indeed, Allah does not love the transgressors.",
-      "ref": "2:190"
-    },
-    {
-      "ayah": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
-      "translation": "Seek help through patience and prayer.",
-      "ref": "2:45"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
-      "translation": "Indeed, Allah is Forgiving and Merciful.",
-      "ref": "2:173"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ يُدَافِعُ عَنِ الَّذِينَ آمَنُوا",
-      "translation": "Indeed, Allah defends those who have believed.",
-      "ref": "22:38"
-    },
-    {
-      "ayah": "وَتُوبُوا إِلَى اللَّهِ جَمِيعًا",
-      "translation": "And turn to Allah in repentance, all of you.",
-      "ref": "24:31"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ يُحِبُّ الْمُتَطَهِّرِينَ",
-      "translation": "Indeed, Allah loves those who purify themselves.",
-      "ref": "2:222"
-    },
-    {
-      "ayah": "وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
-      "translation": "And upon Allah let the believers rely.",
-      "ref": "14:11"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ بَالِغُ أَمْرِهِ",
-      "translation": "Indeed, Allah will accomplish His purpose.",
-      "ref": "65:3"
-    },
-    {
-      "ayah": "إِنَّ رَبِّي لَطِيفٌ لِّمَا يَشَاءُ",
-      "translation": "Indeed, my Lord is Subtle in what He wills.",
-      "ref": "12:100"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُحِبُّ الْكَافِرِينَ",
-      "translation": "Indeed, Allah does not love the disbelievers.",
-      "ref": "3:32"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يَظْلِمُ النَّاسَ شَيْئًا",
-      "translation": "Indeed, Allah does not wrong the people at all.",
-      "ref": "10:44"
-    },
-    {
-      "ayah": "اللَّهُ خَيْرُ الرَّازِقِينَ",
-      "translation": "Allah is the best of providers.",
-      "ref": "62:11"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
-      "translation": "Indeed, Allah is swift in account.",
-      "ref": "3:19"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
-      "translation": "Indeed, Allah does not guide the wrongdoing people.",
-      "ref": "3:86"
-    },
-    {
-      "ayah": "إِنَّ رَبَّكَ وَاسِعُ الْمَغْفِرَةِ",
-      "translation": "Indeed, your Lord is vast in forgiveness.",
-      "ref": "53:32"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ",
-      "translation": "Indeed, Allah loves the just.",
-      "ref": "49:9"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُحِبُّ الْمُسْرِفِينَ",
-      "translation": "Indeed, Allah does not love the wasteful.",
-      "ref": "7:31"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ",
-      "translation": "Indeed, Allah will not change the condition of a people until they change what is in themselves.",
-      "ref": "13:11"
-    },
-    {
-      "ayah": "رَّبِّ اشْرَحْ لِي صَدْرِي",
-      "translation": "My Lord, expand for me my chest.",
-      "ref": "20:25"
-    },
-    {
-      "ayah": "إِنَّ اللَّهَ عَلِيمٌ حَكِيمٌ",
-      "translation": "Indeed, Allah is Knowing and Wise.",
-      "ref": "9:28"
-    },
-    {
-      "ayah": "وَمَا النَّصْرُ إِلَّا مِنْ عِندِ اللَّهِ",
-      "translation": "And victory is not but from Allah.",
-      "ref": "8:10"
-    },
-    {
-      "ayah": "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا",
-      "translation": "Allah is the Protector of those who believe.",
-      "ref": "2:257"
+      "ayah": "إِنَّهُ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+      "translation": "Indeed, whoever fears Allah and is patient—Allah does not allow the reward of the doers of good to be lost.",
+      "ref": "12:90"
     }
   ]
 }
