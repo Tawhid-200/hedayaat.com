@@ -165,10 +165,12 @@ export function Navbar() {
         animate={isVisible ? "visible" : "hidden"}
         initial="visible"
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
+          "fixed top-0  left-0 right-0 z-50 transition-all duration-500",
           isScrolled
-            ? "bg-white/80 dark:bg-zinc-950/80 backdrop-blur-md shadow-sm border-b border-zinc-200/50 dark:border-zinc-800/50"
-            : "bg-transparent backdrop-blur-[2px]"
+            ? "bg-white/80 dark:bg-zinc-950/30 shadow-sm backdrop-blur-sm border-b border-zinc-200/50 dark:border-zinc-800/50"
+            : `${
+                isMobileMenuOpen ? "dark:bg-zinc-950/90" : "bg-transparent"
+              }  backdrop-blur-[2px] shadow-none`
         )}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -368,7 +370,7 @@ export function Navbar() {
               initial="closed"
               animate="open"
               exit="closed"
-              className="md:hidden overflow-hidden bg-white/95 dark:bg-zinc-950/95 backdrop-blur-md border-t border-zinc-200/50 dark:border-zinc-800/50"
+              className="md:hidden overflow-hidden bg-white/95 dark:bg-zinc-950/95 backdrop-blur-sm border-t border-zinc-200/50 dark:border-zinc-800/50"
             >
               <div className="px-4 py-4 space-y-1">
                 {navLinks.map((link) => (
