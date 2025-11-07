@@ -30,7 +30,11 @@ export function HeroSection() {
 
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
           <div className="text-center max-w-6xl mx-auto md:mt-16 -mt-8 w-full space-y-8 max-sm:space-y-6">
-            <BrandTagline>Experience the Divine Word</BrandTagline>
+            <BrandTagline>
+              <span className="tracking-wider">
+                سَلَـٰمٌ عَلَيْكُمْ طِبْتُمْ
+              </span>
+            </BrandTagline>
             <HeroText onLoaded={() => setLoaded(true)} />
             <SearchBar />
             <QuickActionButton />

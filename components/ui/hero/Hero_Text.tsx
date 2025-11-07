@@ -42,7 +42,7 @@ export const HeroText = ({ onLoaded }: { onLoaded: () => void }) => {
 
   const { ayah, translation, ref, random } = QuranAyah;
   return (
-    <>
+    <div className="flex flex-col items-center justify-center gap-8">
       {/* Reference */}
 
       <p className="text-zinc-500 text-base max-sm:text-sm uppercase tracking-[0.2em] font-medium">
@@ -65,6 +65,6 @@ export const HeroText = ({ onLoaded }: { onLoaded: () => void }) => {
           ? translation
           : t(`text_${random + 1}`)}
       </p>
-    </>
+    </div>
   );
 };
