@@ -8,7 +8,7 @@ export const SurahList = async () => {
   const res = await fetch(
     `${
       process.env.NEXT_PUBLIC_VERCEL_URL
-        ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+        ? `${process.env.NEXT_PUBLIC_VERCEL_URL}`
         : ""
     }/api/quran/chapters`
   );
