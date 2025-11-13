@@ -1,12 +1,16 @@
 "use cache";
 
 import { cacheLife } from "next/cache";
-
 import { SurahCard } from "../ui/surahlist/Surah_Card";
+
 export const SurahList = async () => {
   cacheLife("yearly");
   const res = await fetch(
-    `${process.env.NEXT_PUBLIC_SITE_URL}/api/quran/chapters`
+    `${
+      process.env.NEXT_PUBLIC_VERCEL_URL
+        ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+        : ""
+    }/api/quran/chapters`
   );
   const data = await res.json();
   return (
