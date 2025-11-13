@@ -1,9 +1,8 @@
 "use client";
-
-import * as React from "react";
+import React, { useState } from "react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-export function ThemeProvider({
+export function Provider({
   children,
   defaultTheme = "dark",
   ...props

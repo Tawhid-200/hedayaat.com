@@ -1,4 +1,4 @@
-"use state";
+"use client";
 import React, { useState } from "react";
 import { Navbar } from "@/components/layouts/Navbar";
 import { HeroText } from "@/components/ui/hero/Hero_Text";

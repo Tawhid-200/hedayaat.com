@@ -12,7 +12,7 @@ export const SimpleTextFeatures = () => {
           20+ Reciters
         </span>
         <span className="text-zinc-700">•</span>
-        <span className="hover:text-zinc-300 transition-colors cursor-default max-sm:hidden">
+        <span className="hover:text-zinc-300 transition-colors cursor-default ">
           24/7 Access
         </span>
       </div>

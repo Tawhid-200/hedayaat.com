@@ -167,7 +167,11 @@ export function Navbar() {
         className={cn(
           "fixed top-0  left-0 right-0 z-50 transition-all duration-500",
           isScrolled
-            ? "bg-white/80 dark:bg-zinc-950/30 shadow-sm backdrop-blur-sm border-b border-zinc-200/50 dark:border-zinc-800/50"
+            ? `${
+                isScrolled && isMobileMenuOpen
+                  ? "dark:bg-zinc-950/90"
+                  : "dark:bg-zinc-950/30"
+              } shadow-sm backdrop-blur-sm border-b border-zinc-200/50 dark:border-zinc-800/50`
             : `${
                 isMobileMenuOpen ? "dark:bg-zinc-950/90" : "bg-transparent"
               }  backdrop-blur-[2px] shadow-none`
