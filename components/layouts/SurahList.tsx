@@ -6,9 +6,7 @@ import { SurahCard } from "../ui/surahlist/Surah_Card";
 export const SurahList = async () => {
   cacheLife("yearly");
   const res = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_SITE_URL || process.env.NEXT_PUBLIC_VERCEL_URL
-    }/api/quran/chapters`
+    `${process.env.NEXT_PUBLIC_SITE_URL || ""}/api/quran/chapters`
   );
   const data = await res.json();
   console.log(data);
