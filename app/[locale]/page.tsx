@@ -1,9 +1,9 @@
-import React, { Suspense } from "react";
+import React from "react";
 
 export default function Home() {
   return (
     <>
-      <main className="p-0">Hello world</main>
+      <main className="pt-20 min-h-screen">Hello world</main>
     </>
   );
 }

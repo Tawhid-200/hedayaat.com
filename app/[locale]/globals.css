@@ -117,4 +117,7 @@
   body {
     @apply bg-background text-foreground;
   }
+  button {
+    @apply active:scale-90 scale-100 transition-all ease-in-out cursor-pointer;
+  }
 }
